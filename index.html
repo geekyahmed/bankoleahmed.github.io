@@ -48,9 +48,18 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-</head>
+    <link rel="manifest" href="manifest.json">
 
-<body>
+    <meta name="theme-color" content="#0099ff" />
+        
+    
+        
+    
+    </head>
+    <body>
+
+
+
 
     <div id="colorlib-page">
         <header>
@@ -380,6 +389,60 @@
     <!-- Main JS (Do not remove) -->
     <script src="js/main.js"></script>
 
+<script>
+
+    // ServiceWorker Registration
+    if('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('sw.js').then(function(registration) {
+                // Registration was successful
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                
+            }, function(err) {
+                // registration failed :(
+                console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+    }
+    
+
+</script>
+<script>
+
+    // ServiceWorker Registration
+    if('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('sw.js').then(function(registration) {
+                // Registration was successful
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                
+            }, function(err) {
+                // registration failed :(
+                console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+    }
+    
+
+</script>
+<script>
+
+    // ServiceWorker Registration
+    if('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('sw.js').then(function(registration) {
+                // Registration was successful
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                
+            }, function(err) {
+                // registration failed :(
+                console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+    }
+    
+
+</script>
 </body>
 
 </html>
