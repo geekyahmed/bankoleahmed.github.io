@@ -3,12 +3,12 @@
     "short_name": "geekyahmed",
     "icons": [
         {
-            "src": "images/avatar.png",
+            "src": "/images/avatar.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "images/avatar.png",
+            "src": "/images/avatar.png",
             "sizes": "512x512",
             "type": "image/png"
         }
